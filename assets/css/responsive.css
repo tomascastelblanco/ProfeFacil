@@ -1,0 +1,783 @@
+/* fullscreen desktop */
+@media (min-width: 1501px) and (max-width: 1800px) {
+    html {
+        font-size: 56%;
+    }
+    .one_box_right .box_cont{
+    padding: 70px 120px 0px 40px;
+}
+.one_left_box .box_cont {
+    padding: 75px 0px 0px 12px;
+}
+.one_box_right h3{
+    font-size: 3.3rem;
+    padding: 10px 5px;
+}
+.course_left h3, .course_mid h3{
+    font-size: 3.3rem;
+}
+.box_cont p{
+    font-size: 3.8rem;
+}
+
+
+    }
+
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    html {
+        font-size: 50%;
+    }
+
+    section.page_one {
+        padding-left: 10px;
+    }
+
+    h2.same_text {
+        font-size: 3.5rem;
+    }
+
+    .one_box_right .box_cont {
+        padding: 50px 0 0 25px;
+        height: 247px;
+    }
+    .course_mid .box_cont{
+        padding-left: 20px;
+    }
+    .course_right .box_cont p{
+        width: 270px;
+    }
+    .box_cont p {
+        font-size: 3.3rem;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    .one_box_right .box_cont p {
+        width: 300px;
+    }
+
+    .one_left_box {
+        padding-bottom: 30px;
+    }
+
+    h2.same_text.one_top_text {
+        width: 400px;
+        line-height: 40px;
+        margin-top: 130px;
+    }
+
+    .one_right h1 {
+        font-size: 7rem;
+    }
+
+    .one_left_box a {
+        font-size: 3.1rem;
+        padding: 28px 20px;
+        border-radius: 25px;
+    }
+
+    .one_box_right a {
+        font-size: 3.1rem;
+        padding: 26px 40px;
+        border-radius: 25px;
+        width: unset;
+    }
+
+    .one_box_right {
+        margin-left: 0;
+        margin-top: 35px;
+    }
+
+    .one_left_box .box_cont {
+        padding: 75px 0px 0px 12px;
+        height: 480px;
+    }
+
+    h3.color_text {
+        font-size: 2.9rem;
+        padding: 10px 2px;
+    }
+
+    .guitar_course p {
+        font-size: 3.5rem;
+    }
+
+    .guitar_course_left .box_cont {
+        padding: 70px 10px 0 20px;
+    }
+
+    .guitar_course p a {
+        font-size: 3.5rem;
+    }
+
+    .guitar_course_right a.thm_btn.g_last_btn {
+        width: max-content;
+        padding: 11px 6px;
+        font-size: 3.3rem;
+    }
+
+    .guitar_course_mid .box_cont {
+        padding: 160px 0 0 30px;
+    }
+
+    .course_header_left.guitar_course_header_left h1 {
+        font-size: 5rem;
+    }
+
+    section.course-menu.guitar_course .box_cont {
+        height: 600px;
+    }
+
+    .g_course_btn {
+        margin-top: 160px;
+    }
+
+    .guitar_course_right .box_cont {
+        margin-top: 50px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 40%;
+    }
+
+    section.page_one {
+        padding-left: 10px;
+    }
+
+    h2.same_text {
+        font-size: 3.5rem;
+    }
+
+    .one_box_right .box_cont {
+        padding: 35px 0 0 25px;
+        height: 180px;
+    }
+
+    .box_cont p {
+        font-size: 3.2rem;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .one_box_right .box_cont p {
+        width: 240px;
+    }
+
+    .one_left_box {
+        padding-bottom: 30px;
+    }
+
+    h2.same_text.one_top_text {
+        width: 290px;
+        line-height: 35px;
+        margin-top: 70px;
+    }
+
+    .one_right h1 {
+        font-size: 7rem;
+        margin-top: 45px;
+    }
+
+    .one_left_box a {
+        font-size: 3.1rem;
+        padding: 20px 15px;
+        border-radius: 18px;
+        margin-top: 20px;
+    }
+
+    .one_box_right a {
+        font-size: 3.1rem;
+        padding: 18px 35px;
+        border-radius: 25px;
+        width: unset;
+        margin-top: 20px;
+    }
+
+    .one_box_right {
+        margin-left: 0;
+        margin-top: 35px;
+    }
+
+    .one_left_box .box_cont {
+        padding: 60px 0px 0px 12px;
+        height: 400px;
+    }
+
+    .one_box_right .box_cont span {
+        font-size: 3.5rem;
+        padding: 0px 10px;
+        margin-top: -15px;
+    }
+
+    h3.color_text {
+        font-size: 3.3rem;
+        padding: 10px 2px;
+    }
+
+    .course_left h3,
+    .course_mid h3 {
+        margin-top: 25px;
+        font-size: 2.9rem;
+    }
+
+    .guitar_course p {
+        font-size: 3.5rem;
+    }
+
+    .guitar_course_left .box_cont {
+        padding: 70px 10px 0 20px;
+    }
+
+    .guitar_course p a {
+        font-size: 3.5rem;
+    }
+
+    .guitar_course_right a.thm_btn.g_last_btn {
+        width: max-content;
+        padding: 13px;
+        font-size: 3.2rem;
+    }
+
+    .guitar_course_mid .box_cont {
+        padding: 160px 0 0 30px;
+    }
+
+    .course_header_left.guitar_course_header_left h1 {
+        font-size: 5rem;
+        padding: 35px 0 60px;
+        padding-left: 30px;
+    }
+
+    section.course-menu.guitar_course .box_cont {
+        height: 480px;
+    }
+
+    .g_course_btn {
+        margin-top: 110px;
+    }
+
+    .box_cont {
+        height: 460px;
+    }
+
+    .g_course_btn a {
+        padding: 20px 0 20px;
+    }
+
+    .guitar_course_right .box_cont {
+        margin-top: 45px;
+    }
+
+    
+    .course_mid .box_cont{
+        padding-left: 15px;
+    }
+    .course_right .box_cont p{
+        width: 240px;
+    }
+    .course_left .box_cont{
+        padding-left: 15px;
+    }
+    select#select_five {
+        padding: 0 15px 3px;
+        margin-top: -19px;
+    }
+
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .Mobile_Menu {
+        display: block !important;
+    }
+
+    /* Mobile Menu End___________ */
+
+    html {
+        font-size: 60%;
+    }
+
+    header {
+        text-align: right;
+    }
+
+    section.page_one {
+        padding-left: 10px;
+    }
+
+    h2.same_text {
+        font-size: 3.1rem;
+    }
+
+    .one_box_right .box_cont {
+        padding: 50px 0 0 25px;
+        height: 247px;
+    }
+
+    .box_cont p {
+        font-size: 3rem;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    .one_box_right .box_cont p {
+        width: 300px;
+    }
+
+    .one_left_box {
+        padding-bottom: 30px;
+    }
+
+    h2.same_text.one_top_text {
+        width: 475px;
+        line-height: 40px;
+        margin-top: 50px;
+        font-size: 3.5rem;
+    }
+    
+    .one_right h1 {
+        font-size: 7rem;
+    }
+
+    .one_left_box a {
+        font-size: 3.1rem;
+        padding: 28px 20px;
+        border-radius: 25px;
+    }
+
+    .one_box_right a {
+        font-size: 3.1rem;
+        padding: 26px 40px;
+        border-radius: 25px;
+        width: unset;
+    }
+
+    .one_box_right {
+        margin-left: 0;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .one_left_box .box_cont {
+        padding: 75px 0px 0px 20px;
+        height: 480px;
+    }
+
+    h3.color_text {
+        font-size: 3rem;
+        padding: 8px 2px;
+    }
+
+    .guitar_course p {
+        font-size: 3.5rem;
+    }
+
+    .guitar_course_left .box_cont {
+        padding: 70px 0 0 30px;
+    }
+
+    .guitar_course p a {
+        font-size: 3.5rem;
+    }
+
+    .guitar_course_right a.thm_btn.g_last_btn {
+        width: max-content;
+        padding: 15px 10px;
+        font-size: 3rem;
+    }
+
+    .guitar_course_mid .box_cont {
+        padding: 160px 0 0 30px;
+    }
+
+    .course_header_left.guitar_course_header_left h1 {
+        font-size: 5rem;
+        text-align: center;
+        padding: 40px 0 60px;
+    }
+
+    section.course-menu.guitar_course .box_cont {
+        height: 560px;
+    }
+
+    .g_course_btn {
+        margin-top: 140px;
+    }
+
+    .guitar_course_right .box_cont {
+        margin-top: 50px;
+    }
+
+    .course_header_left h1 {
+        font-size: 2.8rem;
+    }
+
+    .course_header_right a {
+        font-size: 2.5rem;
+        width: max-content;
+        margin: 0;
+        margin-left: 10px;
+        display: block;
+    }
+
+    .course_header_right {
+        display: flex;
+        text-align: right;
+    }
+
+    section.course_header {
+        padding: 40px 0 60px;
+    }
+
+    .course_left {
+        margin-bottom: 50px;
+    }
+
+
+    .course_mid {
+        margin-bottom: 50px;
+    }
+
+    .course_right {
+        margin-bottom: 50px;
+    }
+
+    .box_cont {
+        height: 500px;
+    }
+
+    .course_mid .box_cont {
+        padding-top: 30px;
+    }
+
+    .guitar_course_left {
+        margin-bottom: 50px;
+    }
+
+    .g_course_btn a {
+        padding: 20px 0 20px;
+    }
+
+
+    .one_side_bar {
+        color: white;
+        font-size: 7rem;
+        margin-top: 0px;
+        font-family: Segoe-ui-semi-bold;
+        text-align: center;
+    }
+
+    .one_right {
+        display: none;
+    }
+
+    .one_left_box a {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: max-content;
+    }
+
+    .one_box_right .box_cont span {
+        margin-top: -25px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .Mobile_Menu {
+        display: block !important;
+    }
+
+    #my-navigation {
+        width: 100%;
+    }
+
+    /* Mobile Menu End___________ */
+    html {
+        font-size: 35%;
+    }
+
+    header {
+        text-align: right;
+    }
+
+    section.page_one {
+        padding-left: 10px;
+    }
+
+    h2.same_text {
+        font-size: 3.5rem;
+    }
+
+    .one_box_right .box_cont {
+        padding: 35px 0 0 25px;
+        height: 180px;
+    }
+
+    .box_cont p {
+        font-size: 3.2rem;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .one_box_right .box_cont p {
+        width: 250px;
+    }
+
+    .one_left_box {
+        padding-bottom: 30px;
+    }
+
+    h2.same_text.one_top_text {
+        width: 260px;
+        line-height: 35px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .one_right h1 {
+        font-size: 7rem;
+        margin-top: 45px;
+    }
+
+    .one_left_box a {
+        font-size: 3.1rem;
+        padding: 20px 15px;
+        border-radius: 18px;
+        margin-top: 20px;
+    }
+
+    .one_box_right a {
+        font-size: 3.1rem;
+        padding: 15px 35px;
+        border-radius: 17px;
+        width: unset;
+        margin-top: 20px;
+    }
+
+    .one_box_right {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .one_left_box .box_cont {
+        padding: 60px 0px 0px 12px;
+        height: 310px;
+    }
+
+    .one_box_right .box_cont span {
+        font-size: 3.5rem;
+        padding: 0px 10px;
+        margin-top: -15px;
+    }
+
+    h3.color_text {
+        font-size: 3rem;
+        padding: 8px 4px;
+        width: max-content;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    section.course_header {
+        display: block;
+        text-align: left;
+    }
+
+    .guitar_course p {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+
+    .guitar_course_left .box_cont {
+        padding: 50px 0 0 30px;
+    }
+
+    .guitar_course p a {
+        font-size: 3.5rem;
+    }
+
+    .guitar_course_right a.thm_btn.g_last_btn {
+        width: max-content;
+        padding: 10px;
+        font-size: 3.2rem;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .guitar_course_mid .box_cont {
+        padding: 115px 0 0 30px;
+    }
+
+    .course_header_left.guitar_course_header_left h1 {
+        font-size: 5rem;
+        padding: 35px 0 50px;
+        width: max-content;
+        margin: auto;
+    }
+
+    section.course-menu.guitar_course .box_cont {
+        height: 360px;
+    }
+
+    .g_course_btn {
+        margin-top: 90px;
+    }
+
+    .box_cont {
+        height: 460px;
+    }
+
+    .g_course_btn a {
+        padding: 20px 0 20px;
+    }
+
+    .guitar_course_right .box_cont {
+        margin-top: 45px;
+        padding-top: 40px;
+        padding-left: 0 !important;
+    }
+
+
+
+    .course_header_left h1 {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+
+    .course_header_right a {
+        font-size: 3rem;
+        width: max-content;
+        margin: 0;
+        display: block;
+    }
+
+    .course_header_right {
+        display: block;
+        width: max-content;
+        text-align: center;
+    }
+
+    section.course_header {
+        padding: 40px 0 60px;
+    }
+
+    .course_left {
+        margin-bottom: 30px;
+    }
+
+    .course_mid {
+        margin-bottom: 50px;
+    }
+
+    .course_right {
+        margin-bottom: 50px;
+    }
+
+    .box_cont {
+        height: 310px;
+        width: 100%;
+        padding-left: 10px !important;
+        border-radius: 15px;
+    }
+
+    .course_right .box_cont {
+        padding-top: 30px;
+    }
+
+    .course_mid .box_cont {
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+
+    .guitar_course_left {
+        margin-bottom: 50px;
+    }
+
+    .g_course_btn a {
+        padding: 13px 0 14px;
+    }
+
+
+    .one_side_bar {
+        color: white;
+        font-size: 7rem;
+        margin-top: 0px;
+        font-family: Segoe-ui-semi-bold;
+        text-align: center;
+    }
+
+    .one_right {
+        display: none;
+    }
+
+    .one_left_box a {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: max-content;
+    }
+
+    .one_box_right .box_cont span {
+        margin-top: -17px;
+    }
+    .course_right .box_cont p{
+        width: 190px;
+    }
+    select#select_five {
+        padding: 3px 12px 5px;
+        margin-top: -15px;
+        line-height: 1;
+    }
+
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    html {
+        font-size: 40%;
+    }
+
+    #my-navigation {
+        width: 450px;
+    }
+
+    /* Mobile Menu End___________ */
+    main {
+        max-width: 450px !important;
+        margin: auto;
+    }
+
+    h2.same_text.one_top_text {
+        width: 298px;
+    }
+
+    .one_box_right .box_cont p {
+        width: 260px;
+    }
+
+    .box_cont {
+        padding-left: 20px !important;
+    }
+
+    .guitar_course_left .box_cont p {
+        width: 300px;
+    }
+}
