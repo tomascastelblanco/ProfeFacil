@@ -5,5 +5,3 @@
 # -Imprimir "hola mundo"
 print("hola mundo")
 print("hoa 2")
-print("guardar")
-print("probando denuevo")
