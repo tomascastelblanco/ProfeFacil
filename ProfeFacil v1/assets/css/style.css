@@ -1,0 +1,564 @@
+/* 1. Theme default css */
+
+@font-face {
+    font-family: Segoe-ui-bl;
+    src: url(../webfonts/seguiblack.ttf);
+}
+
+@font-face {
+    font-family: Segoe-ui-bold;
+    src: url(../webfonts/Segoe-UI-Bold.ttf);
+}
+
+@font-face {
+    font-family: Segoe-ui-semi-bold;
+    src: url(../webfonts/seguisemib.ttf);
+}
+
+@font-face {
+    font-family: Segoe-ui-semi-light;
+    src: url(../webfonts/Segoe-ui-semilight.ttf);
+}
+
+@font-face {
+    font-family: Segoe-ui-re;
+    src: url(../webfonts/segoeuire.TTF);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Segoe-ui-re, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    text-decoration: none;
+}
+
+a,
+button {
+    color: #3aafe9;
+    outline: medium none;
+    font-size: 1.6rem;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    margin-bottom: 1.5rem;
+    font-style: normal;
+
+    text-transform: normal;
+}
+
+
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #7e7e7e;
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 1.4rem;
+    opacity: 1;
+}
+
+*::placeholder {
+    color: #555555;
+    font-size: 1.4rem;
+    opacity: 1;
+}
+
+.separator {
+    border-top: 1px solid #f2f2f2
+}
+
+/* button style */
+
+.thm_btn {
+    -moz-user-select: none;
+    background: #3aafe9 none repeat scroll 0 0;
+    border: 1px solid #707070;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 40px 38px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+
+/* default css end */
+
+/*_____ Mobile Menu Start______ */
+.Mobile_Menu a i {
+    font-size: 3.5rem;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: #3aafe9;
+}
+
+#my-navigation {
+    width: 400px;
+    background: #3aafe9;
+    padding: 5rem 3rem 0;
+}
+
+span i.fas.fa-times {
+    color: #3aafe9;
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 4rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.side_menu {}
+
+.side_menu ul li {
+    margin-bottom: 1.5rem;
+}
+
+.side_menu ul li a {
+    color: #fff;
+}
+
+.side_menu ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+/*_____ Mobile Menu End______ */
+
+/*Header Section css Start ===========*/
+
+/*Header Section css end ===========*/
+
+
+
+
+
+/* page one css Start ===========*/
+section.page_one {
+    display: flex;
+    padding-left: 40px;
+}
+
+.one_left {
+    padding-top: 150px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+h2.same_text.one_top_text {
+    width: 570px;
+    margin-top: 150px;
+}
+
+h2.same_text {
+    font-size: 4rem;
+    line-height: 54px;
+    color: #3AAFE9;
+    font-family: Segoe-ui-bl;
+}
+
+.one_left_box {
+    padding-bottom: 50px;
+}
+
+.one_right {
+    width: 90%;
+    background: #3AAFE9;
+    float: right;
+    margin-left: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.one_right h1 {
+    font-size: 9rem;
+    color: #fff;
+    font-family: Segoe-ui-semi-bold;
+    margin-top: 90px;
+    text-transform: capitalize;
+}
+
+.one_left_box .box_cont {
+    padding: 75px 45px 0px 12px;
+}
+
+.box_cont {
+    border: 1px solid #707070;
+    border-radius: 30px;
+    text-align: left;
+    height: 638px;
+    /* width: 620px; */
+}
+
+.box_cont p {
+    font-size: 4rem;
+    line-height: 53px;
+    color: #3AAFE9;
+    margin-bottom: 40px;
+}
+
+.one_box_right .box_cont p {
+    width: 425px;
+}
+
+.one_box_right {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.one_box_right .box_cont {
+    padding: 70px 120px 0px 75px;
+    height: 315px;
+}
+
+.one_box_right .box_cont span {
+    font-size: 4rem;
+    color: #3AAFE9;
+    text-align: center;
+    display: block;
+    border: 1px solid #707070;
+    width: max-content;
+    padding: 0 20px;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.one_left_box a {
+    margin-top: 40px;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-family: Segoe-ui-semi-bold;
+}
+
+.one_box_right a {
+    margin-top: 40px;
+    width: 290px;
+    padding: 30px 0;
+    font-size: 4rem;
+    font-family: Segoe-ui-re;
+}
+
+.one_box_right h3 {
+    margin-top: 20px;
+    display: block;
+    width: max-content;
+    margin: auto;
+}
+
+h3.color_text {
+    display: block;
+    text-align: center;
+    border: 1px solid #707070;
+    font-size: 4rem;
+    color: #3aafe9;
+    padding: 10px 0;
+    margin-top: 20px;
+    -webkit-text-stroke: 1px #005DFF;
+    cursor: pointer;
+}
+
+/* page one  css end ===========*/
+
+
+/*course-menu  css Start ===========*/
+section.course_header {
+    display: flex;
+    margin: auto;
+    padding: 40px 0 90px;
+    width: 99%;
+    justify-content: space-between;
+}
+
+.course_header_left h1 {
+    font-family: Segoe-ui-bl;
+    font-size: 4rem;
+    color: #016597;
+    text-transform: capitalize;
+}
+
+section.course-menu {
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.course_right .box_cont {}
+
+.course_header_right a {
+    font-size: 4rem;
+    color: #016597;
+    font-family: Segoe-ui-semi-bold;
+    margin-right: 20px;
+}
+
+section.course_page {
+    padding: 0 20px;
+}
+
+.course_left .box_cont {
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.course_mid .box_cont {
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.course_right .box_cont {
+    padding-left: 15px;
+    padding-top: 80px;
+}
+
+.course_right .box_cont p {
+    font-family: Segoe-ui-semi-light;
+    width: 380px;
+}
+
+section.course-menu h3.color_text {
+    margin-top: 40px;
+}
+
+.course_left h3,
+.course_mid h3 {
+    margin-top: 40px;
+    font-size: 3.9rem;
+}
+
+/*course-menu  css end ===========*/
+
+
+
+
+/*guitar_course css Start ===========*/
+section.course-menu.guitar_course .box_cont {
+    background: #B6DEF0;
+    height: 705px;
+}
+
+.course_header_left.guitar_course_header_left h1 {
+    color: #3AAFE9;
+    font-size: 6rem;
+    padding: 45px 0 90px;
+    padding-left: 30px;
+}
+
+.guitar_course p {
+    font-size: 4rem;
+    color: #3AAFE9;
+    margin-bottom: 30px;
+}
+
+.guitar_course_left .box_cont {
+    padding: 75px 0 0 60px;
+}
+
+.guitar_course_mid .box_cont {
+    padding: 160px 0 0 60px;
+}
+
+.guitar_course_right .box_cont {
+    padding: 75px 0 0 0px;
+}
+
+.guitar_course p a {
+    font-size: 4rem;
+    padding-right: 31px;
+    display: block;
+}
+
+.guitar_course_right .box_cont {
+    text-align: center;
+    margin-top: 52px;
+}
+
+.g_course_btn {
+    margin-top: 215px;
+    padding: 0 40px;
+}
+
+.g_course_btn a {
+    margin-bottom: 3.5rem;
+    padding: 30px 0 30px;
+    display: block;
+    font-family: Segoe-ui-semi-bold;
+}
+
+.guitar_course_right p {
+    color: #707070;
+}
+
+.guitar_course_right a.thm_btn.g_last_btn {
+    display: block;
+    width: max-content;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px 15px;
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: Segoe-ui-semi-bold;
+}
+
+section.course-menu.guitar_course h3.color_text {
+    margin-top: 15px;
+    background: #D5D5D5;
+    color: #3aafe9;
+    font-family: Segoe-ui-semi-bold;
+    -webkit-text-stroke: unset;
+    cursor: pointer;
+}
+
+/*guitar_course css end ===========*/
+
+
+
+
+/*Footer Section css Start ===========*/
+/*Footer Section css end ===========*/
+
+
+
+
+/*Footer Section css Start ===========*/
+/*Footer Section css end ===========*/

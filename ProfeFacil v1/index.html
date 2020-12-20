@@ -1,0 +1,125 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>page one</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/iptools-jquery-offcanvas.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>    
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+
+        <!--==================== header-Section start ============-->
+
+            <header >
+                <div class="Mobile_Menu" style="display: none;">
+                    <a href="#" data-offcanvas-open="my-navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </a>
+                </div>
+            </header>
+
+            <!-- ___________Mobile Menu Start___________-->
+
+                
+           
+                
+                <section id="my-navigation" class="offcanvas">
+                    <span data-offcanvas-close="my-navigation"><i class="fas fa-times"></i></span>
+                    
+                    <div class=" one_side_bar">
+                        <h1>profe facil.</h1>
+                    </div>
+                </section>
+
+            <!-- _________Mobile Menu End__________-->
+
+
+        <!--============ header-Section end =================-->
+
+        <main >
+
+
+
+            <!-- page_one-start -->
+
+            <section class="page_one">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 offset-md-2 offset-lg-0 col-12 col-sm-12 offset-sm-0 offset-0">
+                            <h2 class="same_text one_top_text">Selecciona el curso al cual quieres separar en grupos</h2>
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12 ">
+                                    <div class="one_left_box">
+                                        <div class="box_cont">
+                                            <p>Introduccion al calculo 1.</p>
+                                            <p>Programacion Profesional 3</p>
+                                            <h2 class="same_text">Curso de guitarra 1. </h2>
+                                        </div>
+                                        <a href="#" class="thm_btn">Volver al menu de cursos.</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+                                    <div class="one_box_right">
+                                        <div class="box_cont">
+                                            <p>Ingrese el numero de integrantes pro grupos</p>
+                                            <span>5</span>
+                                        </div>
+                                        <a href="#" class="thm_btn">Crear</a>
+                                        <h3 class="color_text">Enviar notificaciones a los grupos</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="padding: 0;">
+                            <div class="one_right">
+                                <h1>profe facil.</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- page_one-end -->
+        </main>
+
+
+		<!-- JS here -->
+        <script src="assets/js/jquery3.4.1.min.js"></script>
+        <script src="assets/js/iptools-jquery-offcanvas.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script>
+            // Mobile Menu
+            $('#my-navigation').iptOffCanvas({
+
+            // base CSS class
+            baseClass: 'offcanvas',
+
+            // top, right, bottom, left
+            type: 'right',
+
+            // close other instances when one opens
+            single: true,
+
+            static: false
+
+            }); 
+        </script>
+    </body>
+</html>
