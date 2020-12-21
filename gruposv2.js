@@ -1,4 +1,4 @@
-// src="https://code.jquery.com/jquery-3.5.1.min.js" add this in script
+
 class Alumno {
     constructor(nombre, rut, ica, notas_mat, notas_ing, notas_alib, mail){
         this.nombre = nombre;
@@ -125,7 +125,7 @@ $(document).ready(function() {
 });
 
 function processData(allText) {
-    var record_num = 6;  // or however many elements there are in each row
+    var record_num = 6;  
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i=1;i<allTextLines.length;i++) {
         var entries = allTextLines[i].split(',');
